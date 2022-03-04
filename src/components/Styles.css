@@ -1,0 +1,159 @@
+::placeholder {
+  font-size: 1rem;
+}
+
+input {
+  height: 4rem;
+  width: 25rem;
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+  border: 0;
+  padding-left: 1rem;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  width: 20rem;
+  height: 3rem;
+  background-color: #00adb5;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1.25rem;
+  color: #eeeeee;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: #00676d;
+}
+
+p {
+  color: #eeeeee;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #eeeeee;
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+hr {
+  width: 80%;
+  margin: 1.5rem;
+  padding: 0;
+}
+
+.Router {
+  width: 100%;
+  height: 100%;
+}
+
+.Login {
+  height: auto;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Register {
+  height: auto;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Button {
+  background-color: #28af77;
+  transition: 0.25s;
+}
+
+.Button:hover {
+  background-color: #1b7751;
+}
+
+.CenteredContainer {
+  background-color: #3a4750;
+  border-radius: 1rem;
+}
+
+.Login-Logo-Container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-Input-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 15rem;
+  gap: 1rem;
+}
+
+.Login-Button-Container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Register-Logo-Container {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register-Input-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  gap: 1rem;
+}
+
+.Register-Button-Container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Button-Container-div {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HR-Container {
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
